@@ -30,3 +30,13 @@
     font-family: 'DM Sans', sans-serif;
     /* font-family: 'Inter', sans-serif; */
  }
+
+ header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+ }
