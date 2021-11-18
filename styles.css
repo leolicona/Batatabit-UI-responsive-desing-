@@ -151,21 +151,32 @@ main {
     color: #757575;
 }
 
+/* .main-tables-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+} */
+
+/* .main-tables--container::-webkit-scrollbar {
+    display: none;
+} */
 .main-currency-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
+   /*  height: 300px; */
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 
 }
 
-.main-currency-table .currency-table--title {
+.main-currency-table .currency-table--title  {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+    /* padding-left: 20px; */
 
 }
 
@@ -175,6 +186,7 @@ main {
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
+    /* position: relative; */
 }
 
 .currency-table--container table {
@@ -254,6 +266,30 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
 }
+
+.main-comission-table {
+    margin-top: 30px;
+}
+.main-comission-table .comission-table-title {
+    color: var(--secundary-blue);
+}
+
+.comission-table--date {
+    background-color: var(--soft-blue);
+}
+
+/* .table-go-right {
+    position: absolute;
+    right: -4px;
+    padding: 1px;
+    top: calc(50% - 20px);
+
+}
+
+.table-go-left {
+    right: auto;
+    left: -40px;
+} */
 
 
 
