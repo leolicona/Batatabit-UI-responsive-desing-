@@ -153,19 +153,22 @@ main {
     color: #757575;
 }
 
-<<<<<<< HEAD
+.main-tables-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 
-=======
->>>>>>> main
 .main-currency-table {
+    position: relative;
     width: 70%;
-    min-width: 235px;
+    min-width: 230px;
     max-width: 500px;
-<<<<<<< HEAD
-  
-=======
->>>>>>> main
-    margin: 0 auto;
+    margin: 0 25px;
+    scroll-snap-align: center;
     font-family: 'Inter', sans-serif;
 
 }
@@ -176,11 +179,6 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> main
 }
 
 .currency-table--container {
@@ -188,12 +186,7 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-<<<<<<< HEAD
-    margin: 0 auto;
-   
-=======
     margin: 0 auto;   
->>>>>>> main
 }
 
 .currency-table--container table {
@@ -275,7 +268,7 @@ main {
 }
 
 .main-comission-table {
-    margin-top: 30px;
+
 }
 .main-comission-table .comission-table-title {
     color: var(--secundary-blue);
@@ -285,9 +278,6 @@ main {
     background-color: var(--soft-blue);
 }
 
-<<<<<<< HEAD
-
-=======
 .main-product-detail {
     position: relative;
     width: 100%;
@@ -563,7 +553,6 @@ footer .left ul {
 
 
 
->>>>>>> main
 
 
 
